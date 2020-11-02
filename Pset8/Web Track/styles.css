@@ -1,0 +1,25 @@
+.background
+{
+    background-color: rgb(29, 29, 29);
+}
+.body
+{
+    text-align: left;
+    color: aliceblue;
+    font-size: large;
+    font-family: cursive;
+}
+table
+{
+    border: 1px solid aliceblue; 
+    border-collapse: collapse; 
+    <! border adjusts size, type of line, and color while border collapse deletes border multiples >
+}
+td
+{
+    border: 1px solid aliceblue;
+    padding: 5px; 
+    <! padding adds space around cell>
+}
+
+<! this kind of file can be used to standardize multiple pages with a similar styling format >
