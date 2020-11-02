@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>geolocation</title>
+<! first line gets position from user and the second line writes it in lat/long format
+            <script>
+              navigator.geolocation.getCurrentPosition(function(position)
+              {
+                  document.write(position.coords.latitude + ', ' + position.coords.longitude);
+              });
+            </script>
+    </head>
+    <body>
+       
+    </body>
+</html>

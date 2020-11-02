@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+    </head>
+<! button creates a button with the name typed between symbols
+    <body>
+       <button id="red">R</button>
+       <button id="green">G</button>
+       <button id="blue">B</button>
+<! the first line under script creates a variable "body" that can be used multiple times to save on lines of code.
+       <script>
+        let body = document.querySelector('body');
+        document.querySelector('#red').onclick = function()
+        {
+              body.style.backgroundColor = 'red';
+        }
+        document.querySelector('#green').onclick = function()
+        {
+              body.style.backgroundColor = 'green';
+        }
+        document.querySelector('#blue').onclick = function()
+        {
+              body.style.backgroundColor = 'blue';
+        }
+      </script>
+    </body>
+</html>

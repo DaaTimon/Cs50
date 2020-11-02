@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+<! script adds javascript in>
+<! function creates a type of variable>
+<! let name means set name and everything after the = is what you want to load in (document.querySelector selects the variable (#___) and .value grabs value) >
+<! === means exactly equal to>
+<! alert makes a popup including everything in parenthesis>
+            <script>
+                function greet() 
+                {
+                    let name = document.querySelector('#name').value;
+                    if (name === '')
+                    {
+                        name = 'world';
+                    }
+                    alert('Hello, ' + name + '!');
+                }
+            </script>
+    </head>
+    <body>
+<! form onsubmit does what its equal to after submitting (greet is the fuction above and return false prevents opening another webpage)>
+<! like before input type text makes a text box (here attatched to the selector above by id) and submit gives a submit button>
+        <form onsubmit="greet(); return false;">
+            <input type="text" id="name">
+            <input type="submit">
+        </form>
+    </body>
+</html>
