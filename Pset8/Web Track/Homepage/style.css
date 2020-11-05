@@ -1,15 +1,23 @@
 a:link 
 {
+    border: none;
     color: rgb(0, 108, 209);
     background-color: transparent;
+    text-align: center;
     text-decoration: none;
 }
             
 a:visited 
 {
+    border: none;
     color: rgb(200, 0, 33);
     background-color: transparent;
+    text-align: center;
     text-decoration: none;
+}
+.body
+{
+    text-align: center;
 }
 .button 
 {
@@ -21,8 +29,32 @@ a:visited
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
 }
-.button1 {width: 100px;}
-.button2 {width: 100px;}
-
+.button1 
+{
+    width: 100px;
+}
+.button2 
+{
+    width: 100px;
+}
+.h5
+{
+    word-wrap: wrap auto; ;
+}
+.table
+{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+.td
+{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    border-collapse: collapse;
+}
