@@ -1,0 +1,28 @@
+a:link 
+{
+    color: rgb(0, 108, 209);
+    background-color: transparent;
+    text-decoration: none;
+}
+            
+a:visited 
+{
+    color: rgb(200, 0, 33);
+    background-color: transparent;
+    text-decoration: none;
+}
+.button 
+{
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {width: 100px;}
+.button2 {width: 100px;}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Tamon's Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="Index.html">Homepage<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Color.html">Color Fun</a>
+                </li>
+            </div>
+          </nav>
+        <title>
+            About Me
+        </title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <button class="button button1" id="Dark">Dark Mode</button>
+        <button class="button button2" id="Light">Light Mode</button>
+
+        <script>
+            let body = document.querySelector('body');
+            document.querySelector('#Dark').onclick = function()
+            {
+                body.style.backgroundColor = 'rgb(30, 30, 30)';
+                body.style.color = 'rgb(255, 255, 255)';
+            }
+            document.querySelector('#Light').onclick = function()
+            {
+                body.style.backgroundColor = 'rgb(255, 255, 255)';
+                body.style.color = 'rgb(0, 0, 0)';
+            }
+          </script>
+    </body>
+</html>
