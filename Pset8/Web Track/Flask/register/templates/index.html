@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<! iterate every row in rows and the list is made of row "name" and row "email" (this excludes the id number assosiated with the registrant>
+        <h1>Registrants</h1>
+        <ul>
+            {% for row in rows %}
+                <li>{{ row["name"] }} ({{ row["email"] }})</li>
+            {% endfor %}
+        </ul>
+
+        <a href= "/register">Register</a>
+   {% endblock %}
